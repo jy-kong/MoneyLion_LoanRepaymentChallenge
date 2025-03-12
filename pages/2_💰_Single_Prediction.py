@@ -146,8 +146,6 @@ with st.form("Single Prediction", clear_on_submit=True):
             st.session_state.result = 1
             st.session_state.prediction_outcome = "High Risk"
 
-        st.success(f"Prediction Result: {st.session_state.prediction_outcome}")
-
 image_path = ''
 col3, col4 = st.columns(2)
 
