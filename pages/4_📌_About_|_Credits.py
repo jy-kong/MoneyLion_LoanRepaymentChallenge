@@ -42,7 +42,7 @@ with col2:
 
 st.subheader('Documentation :memo:')
 st.write("""The Website User Manual is available here.""")
-st.write("""[User Manual](https://drive.google.com/file/d/1ZgRSNgZuRfy5swKIYNcgZ0A8-TgWFOGy/view?usp=share_link)""")
+st.write("""[User Manual](https://drive.google.com/file/d/19jXwrDRwvzRH8blj8xpRkgY_afelRTxU/view?usp=share_link)""")
 
 "---"
 
