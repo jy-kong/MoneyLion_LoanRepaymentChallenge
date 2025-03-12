@@ -137,7 +137,7 @@ def predict(data):
     
     # Define a function to apply custom styling based on 'Prediction' column
     def color_prediction_row(row):
-        if row['Prediction'] == 'Default':
+        if row['Prediction'] == 'High Risk':
             return ['background-color: tomato'] * len(row)  # Highlight risky loans
         else:
             return ['background-color: lightgreen'] * len(row)  # Highlight safe loans
