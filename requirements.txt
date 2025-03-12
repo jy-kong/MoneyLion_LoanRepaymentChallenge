@@ -1,0 +1,12 @@
+matplotlib
+numpy>1.23.5
+category_encoders
+plotly
+scikit_learn
+seaborn
+pandas
+ydata_profiling
+streamlit
+streamlit_pandas_profiling
+requests
+streamlit_lottie
