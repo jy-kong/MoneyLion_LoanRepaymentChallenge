@@ -122,10 +122,10 @@ with st.form("Single Prediction", clear_on_submit=True):
             le, te, ct, sc = pickle.load(f)
 
         # Apply Target Encoding on 'state' column
-        #df["state"] = te.transform(df["state"])  # Directly apply transformation using pre-fitted encoder
+        df["state"] = te.transform(df[["state"]])  # Directly apply transformation using pre-fitted encoder
 
         # Apply Target Encoding on 'state' column (Index 13)
-        df.iloc[:, 13] = te.transform(df.iloc[:, 13])
+        #df.iloc[:, 13] = te.transform(df.iloc[:, 13])
 
         # Apply One-Hot Encoding & Feature Transformation
         sample_data_transformed = ct.transform(df)
