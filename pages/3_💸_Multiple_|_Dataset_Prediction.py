@@ -115,7 +115,8 @@ def predict(data):
     input_data = data.copy(deep=True)
 
     # Apply Target Encoding on 'state' column
-    input_data["state"] = te.transform(input_data["state"])  # Use pre-fitted encoder
+    input_data["state"] = te.transform(input_data["state"].values.reshape(-1, 1))
+    #input_data["state"] = te.transform(input_data["state"])  # Use pre-fitted encoder
 
     # Apply One-Hot Encoding & Feature Transformation using ColumnTransformer
     sample_data_transformed = ct.transform(input_data)
