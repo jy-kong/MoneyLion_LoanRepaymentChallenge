@@ -85,6 +85,6 @@ st.markdown("""
     The **Loan Risk Predictor** simplifies this classification into **High Risk** or **Low/Medium Risk** for decision-making purposes while maintaining transparency by presenting the original loan statuses.
 
     #### User Manual
-    To understand how to use the **Loan Risk Predictor** in detail, please read the [Loan Risk Predictor User Manual](#).  
+    To understand how to use the **Loan Risk Predictor** in detail, please read the [Loan Risk Predictor User Manual](https://drive.google.com/file/d/19jXwrDRwvzRH8blj8xpRkgY_afelRTxU/view?usp=share_link).  
 """)
 
