@@ -3,6 +3,7 @@ numpy>1.23.5
 category_encoders
 plotly
 scikit_learn
+lightgbm
 seaborn
 pandas
 ydata_profiling
